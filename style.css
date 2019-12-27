@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(rgb(47,150,163), rgb(48,62,143));
+  font-family: sans-serif;
+  color: white;
+}
+
+.location, .temperature {
+  height: 30vh;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.temperature {
+  flex-direction: column;
+}
+
+.degree-section {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.degree-section span {
+  margin: 10px;
+  font-size: 30px;
+}
+
+.degree-section h2 {
+  font-size: 60px;
+}
+
+.arrow {
+  color: black;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    right: -34px;
+    top: 30px;
+}
+
+.span-txt {
+ font-size: 10px;
+ font-family: 'Indie Flower', cursive;
+ position: relative;
+ top: 22px;
+ color: #f8b400;
+
+}
+
+.arrowtxt {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+
+.temperature-description {
+  margin-top: 60px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  color: #4A4A4A;
+  background-color: #fff;
+  border: 1px solid #4A4A4A;
+  padding: 8px 24px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  margin-left: 10px;
+}
+
+.btn:hover {
+  opacity: 0.7;
+}
+
+.submit {
+  border-radius: 3px;
+  border: solid 1px gray;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+
+
+
+
